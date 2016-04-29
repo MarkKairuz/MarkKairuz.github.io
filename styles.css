@@ -1,0 +1,106 @@
+/* Large Width */
+body {
+  max-width: 960px;
+  margin: auto;
+}
+
+blockquote {
+  border-left: 5px solid blue;
+  padding-left: 12px;
+  margin-left: 0px;
+}
+
+cite {
+  display: block;
+  margin-top: 10px;
+}
+
+em {
+  text-transform: uppercase;
+}
+main {
+  width: 79%;
+  display: inline-block;
+  vertical-align: top;
+  padding: .1%;
+}
+table {
+  font-size: 8%;
+  margin: 1%;
+  padding: .5%;
+}
+#extra-info {
+  width: 19%;
+  display: inline-block;
+  vertical-align: top;
+  padding: .2%;
+}
+
+#extra-info ul {
+  list-style-type: square;
+  padding-left: 16px; 
+}
+
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+figcaption {
+  font-style: italic;
+  text-align: right;
+}
+
+/* Medium width */
+
+@media screen and (max-width: 848px) {
+  main {
+    display: block;
+    margin: auto;
+    text-align: center; 
+  }
+
+  #extra-info {
+    display: block;
+    margin: auto;
+    min-width: 230px;
+    text-align: left;
+    width: 80%;
+  }
+  table {
+    font-size: 80%;
+    margin: auto;
+    padding: 1%;
+  }
+}
+
+/* Small width */
+
+@media screen and (max-width: 287px) {
+  main {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+
+  #extra-info {
+   display: block;
+   margin: auto;
+   text-align: left;
+  }
+
+  body {
+    font-size: 80%;
+    min-width: 230px;
+  }
+  #extra-info ul {
+    list-style-type: square;
+    margin-left: 7px;
+    padding-left: 7px; 
+}
+
