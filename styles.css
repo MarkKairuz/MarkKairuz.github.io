@@ -1,6 +1,6 @@
-/* Main */
+/* Large Width */
 body {
-  max-width: 960px;
+  max-width: 1020px;
   margin: auto;
 }
 
@@ -22,10 +22,12 @@ main {
   width: 79%;
   display: inline-block;
   vertical-align: top;
-  padding: .2%;
+  padding: .1%;
 }
 table {
-  font-size: 10%;
+  font-size: 8%;
+  margin: 1%;
+  padding: 1%;
 }
 #extra-info {
   width: 19%;
@@ -36,7 +38,7 @@ table {
 
 #extra-info ul {
   list-style-type: square;
-  padding-left: 0px;
+  padding-left: 16px; 
 }
 
 
@@ -54,6 +56,8 @@ figcaption {
   text-align: right;
 }
 
+/* Medium width */
+
 @media screen and (max-width: 848px) {
   main {
     display: block;
@@ -61,14 +65,21 @@ figcaption {
     text-align: center;
   }
 
-  #external-links {
+  #extra-info {
     display: block;
     margin: auto;
     min-width: 230px;
     text-align: center;
+    width: 80%;
   }
-
+  table {
+    font-size: 20%;
+    margin: 10%;
+    padding: 1%;
+  }
 }
+
+/* Small width */
 
 @media screen and (max-width: 287px) {
   main {
