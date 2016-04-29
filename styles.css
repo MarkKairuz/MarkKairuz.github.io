@@ -1,6 +1,6 @@
 /* Large Width */
 body {
-  max-width: 1020px;
+  max-width: 960px;
   margin: auto;
 }
 
@@ -27,7 +27,7 @@ main {
 table {
   font-size: 8%;
   margin: 1%;
-  padding: 1%;
+  padding: .5%;
 }
 #extra-info {
   width: 19%;
@@ -62,19 +62,19 @@ figcaption {
   main {
     display: block;
     margin: auto;
-    text-align: center;
+    text-align: center; 
   }
 
   #extra-info {
     display: block;
     margin: auto;
     min-width: 230px;
-    text-align: center;
+    text-align: left;
     width: 80%;
   }
   table {
-    font-size: 20%;
-    margin: 10%;
+    font-size: 80%;
+    margin: auto;
     padding: 1%;
   }
 }
@@ -88,15 +88,23 @@ figcaption {
     text-align: center;
   }
 
-  #external-links {
+  #extra-info {
    display: block;
    margin: auto;
-   text-align: center;
+   text-align: left;
   }
 
   body {
     font-size: 80%;
     min-width: 230px;
   }
+  #extra-info ul {
+    list-style-type: square;
+    margin-left: 7px;
+    padding-left: 7px; 
 }
 
+  #Construction {
+    background-image: url("http://4.bp.blogspot.com/_YhP6WQxn-54/TNazRcoYR8I/AAAAAAAAALk/PVArcneTBGU/s1600/construction-site.jpg");
+    background-color: #cccccc;
+}
