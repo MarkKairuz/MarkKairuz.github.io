@@ -4,6 +4,10 @@ body {
   margin: auto;
 }
 
+h2 {
+  font-family: sans-serif;
+}
+
 blockquote {
   border-left: 5px solid blue;
   padding-left: 12px;
@@ -54,6 +58,15 @@ figure {
 figcaption {
   font-style: italic;
   text-align: right;
+}
+
+#Construct {
+  background-image: url("http://4.bp.blogspot.com/_YhP6WQxn-54/TNazRcoYR8I/AAAAAAAAALk/PVArcneTBGU/s1600/construction-site.jpg");
+  padding: 10%;
+  font-weight: bold;
+  font-size: 500%;
+  color: #00ff00;
+  text-shadow: 2px 2px #ffffff;
 }
 
 /* Medium width */
